@@ -1,6 +1,6 @@
 {
   "name": "photo-tab-page-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "API for my photo tab page",
   "main": "index.js",
   "scripts": {

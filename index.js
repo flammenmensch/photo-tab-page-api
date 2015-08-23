@@ -2,12 +2,14 @@
 
 var express = require('express');
 var bodyParser = require('body-parser');
+var compression = require('compression');
 
 var apiService = require('./lib/api-service');
 var imageService = require('./lib/image-service');
 var utils = require('./lib/utils');
 
 var app = express();
+app.use(compression());
 app.use(bodyParser.json());
 
 app.route('/api')

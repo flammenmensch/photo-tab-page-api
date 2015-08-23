@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
     "es6-promises": "^1.0.10",
     "express": "^4.13.3",
     "locallydb": "0.0.9",
